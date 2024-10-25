@@ -1,0 +1,68 @@
+/* style.css */
+.text-title {
+    -fx-font-size: 60.0px;
+    -fx-font-family: "Brush Script MT", cursive;
+    -fx-effect: dropshadow(one-pass-box, black, 10.0, 0.0, 0.0, 0.0);
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1.0px;
+}
+
+.ending {
+    -fx-background-color: black;
+}
+.button-start, .button-exit, .choice-box, .select-button,.ending-home,.ending-reset {
+    -fx-background-color: #D4AF37;
+    -fx-background-radius: 20.0px;
+    -fx-border-color: #D4AF37;
+    -fx-border-radius: 20.0px;
+    -fx-border-width: 2.0px;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Brush Script MT", cursive;
+    -fx-font-size: 24.0px;
+    -fx-padding: 8.0px 16.0px;
+}
+
+.button-start:hover, .button-exit:hover, .choice-box:hover, .select-button:hover ,.ending-home:hover,.ending-reset:hover{
+    -fx-background-color: #E6C888;
+    -fx-border-color: #E6C888;
+}
+
+.button-start:pressed, .button-exit:pressed, .choice-box:pressed, .select-button:pressed,.ending-home:pressed,.ending-reset:pressed {
+    -fx-background-color: #B59540;
+    -fx-border-color: #B59540;
+}
+
+.choice-box {
+    -fx-pref-width: 200.0px;
+    -fx-pref-height: 40.0px;
+}
+
+.button-reset {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+}
+
+.button-reset:hover {
+    -fx-background-color: #e53935;
+}
+
+.button-reset:pressed {
+    -fx-background-color: #c62828;
+}
+
+.button-reset:armed {
+    -fx-background-color: #d32f2f;
+}
+
+.button-reset:disabled {
+    -fx-opacity: 0.5;
+}
+
+.text-shot {
+	-fx-font-family: "Brush Script MT";
+    -fx-font-size: 24.0px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}

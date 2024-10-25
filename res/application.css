@@ -1,0 +1,30 @@
+.welcome-page {
+    -fx-background-color: #000000;
+}
+
+.title {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+}
+
+.start-button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.exit-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.map-choice-box {
+    -fx-pref-width: 900px;
+}
+
+.select-button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
